@@ -34,7 +34,11 @@ a {
     margin: 0 auto;
 }
 
-#main-bio,
+#main-bio {
+    display: flex;
+    flex-direction: column;
+}
+
 #contact-info,
 #bio-image {
     float: left;
