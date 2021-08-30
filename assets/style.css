@@ -1,27 +1,25 @@
+:root {
+	--primary-color: #314155;
+	--secondary-color: #39a6b2;
+	--tertiary-color: #fff;
+}
 body {
+	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
-	line-height: 150%;
-	background-color: #fff;
-	color: #39a6b2;
+	background-color: var(--tertiary-color);
+	color: var(--primary-color);
 }
-
 /* apply styles to <header> */
 header {
-	padding: 20px 35px;
-    background-color: #0a1b25;
+	padding: 10px 5px;
+	background-color: var(--primary-color);
 	display: flex;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 80%;
-	top: 0;
-	z-index: 9999;
 }
 header nav {
 	margin: 7px 0;
-    color: #39a6b2;
+	color: var(--secondary-color);
 }
 header nav ul {
 	display: flex;
@@ -36,75 +34,101 @@ header nav ul li a {
 	font-size: 1.55vw;
 	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+/* End Header Style */
+
 h1 {
-	padding: 20px 0;
+	display: flex;
+	padding: 20px 10px 20px;
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 0;
+	margin-left: 100px;
 	font-size: 32px;
-	color: #024e76;
-	text-align: center;
+	color: var(--primary-color);
 }
 
 h2 {
 	font-size: 24px;
 }
 a {
-	color: #39a6b2;
+	color: var(--secondary-color);
 }
-.flex {
-    display: flex;
-    background-color: #39a6b2;
-    padding: 10px 15px;
-	font-weight: lighter;
-	font-size: 1.55vw;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
-}
-.hero {
-    background-image: url(../assets/forest-background-pine-trees-silhouette-template-vector-23228125.jpg);
-	padding: 50px 35px;
-    background-color: #0a1b25;
+footer nav ul {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 80%;
-	top: 0;
-	z-index: 9999;
-}
-.hero-subtitle {
-    display: flex;
-    justify-content: flex-end;
-}
-.bio {
-	width: 1024px;
-	margin: 0 auto;
-    padding: 20px 35px;
-	display: flex;
-	flex-direction: column;
-}
-.work {
-    width: 1024px;
-	margin: 0 auto;
-    padding: 20px 35px;
-	display: flex;
-	flex-direction: column
-}
-.contact {
-    width: 1024px;
-	margin: 0 auto;
-    padding: 20px 35px;
-	display: flex;
-    display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	list-style: none;
 }
+footer nav ul li a {
+	color: #314155;
+	text-decoration-line: none;
+}
+.flex-header {
+	display: flex;
+	justify-content: right;
+	flex-direction: row-reverse;
+	background-color: var(--secondary-color);
+}
+.hero {
+	background-image: url(../assets/forest-background-pine-trees-silhouette-template-vector-23228125.jpg);
+	padding: 150px 50px 20px;
+	background-color: #0a1b25;
+	display: flex;
+	justify-content: flex-end;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 100%;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	padding: 0 15px 0 15px;
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+}
+.about-me {
+	margin: 50px auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 48px;
+	color: var(--primary-color);
+	border-right: 3px solid;
+	padding-bottom: 100px;
+	margin: 0 auto 35px auto;
+}
+.bio {
+    margin: 50px auto;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: right;
+	justify-content: space-between;
+	font-size: 18px;
+	color: var(--primary-color);
+	
+	padding-bottom: 100px;
+	margin: 0 auto 35px auto;
+
+}
+.work {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px 35px;
+	display: flex;
+	flex-direction: column;
+}
+.contact {
+	width: 1024px;
+	margin: 0 auto;
+	padding: 20px 35px;
+}
 #about-me {
-    width:70%;
-    border: 2px solid red;
+	width: 70%;
+	border: 2px solid red;
 }
 #work {
 	width: 70%;
@@ -114,4 +138,3 @@ a {
 	width: 70%;
 	border: 2px solid green;
 }
-
