@@ -162,7 +162,7 @@ footer nav ul li a {
     display: flex;
     align-items: flex-end;
 	margin: 0 0 1% 0;
-    padding: 0 0 2% 0;
+    padding: 20% 0 2% 0;
 	border: 5px solid var(--secondary-color);
 	height: 50%;
 }
@@ -184,7 +184,7 @@ footer nav ul li a {
     height: 45%;
     width: 48%;
     margin: 1% 1% 1% 0;
-    padding: 0 0 2% 0;
+    padding: 5% 0 2% 0;
 }
 .LED-wall:hover {
     opacity: .5;
@@ -198,7 +198,7 @@ footer nav ul li a {
     height: 45%;
     width: 48%;
     margin: 1% 0% 1% 1%;
-    padding: 0 0 2% 0;
+    padding: 5% 0 2% 0;
 }
 .calculator:hover {
     opacity: .5;
@@ -212,7 +212,7 @@ footer nav ul li a {
     height: 45%;
     width: 48%;
     margin: 1% 1% 1% 0;
-    padding: 0 0 2% 0;
+    padding: 5% 0 2% 0;
 }
 .pastel-puzzles:hover {
     opacity: .5;
@@ -226,7 +226,7 @@ footer nav ul li a {
     height: 45%;
     width: 47%;
     margin: 1% 1% 1% 1%;
-    padding: 0 0 2% 0;
+    padding: 5% 0 2% 0;
 }
 .run-buddy:hover {
     opacity: .5;
