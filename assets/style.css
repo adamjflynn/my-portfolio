@@ -5,7 +5,7 @@
 }
 body {
 	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-size: 18px;
 	background-color: var(--tertiary-color);
 	color: var(--primary-color);
@@ -45,10 +45,6 @@ h1 {
 	font-size: 32px;
 	color: var(--primary-color);
 }
-
-h2 {
-	font-size: 24px;
-}
 h3{
     font-size: 24px;
 }
@@ -63,7 +59,7 @@ span {
     font-size: 16px;
 }
 footer {
-    margin: 0% 5% 0% 5%;
+    margin: 10% 5% 0% 5%;
     padding: 0% 85% 0% 4%;
 }
 footer nav ul {
@@ -133,7 +129,7 @@ footer nav ul li a {
 	font-size: 18px;
 	color: var(--primary-color);
 }
-.works {
+.work {
 	width: 80%;
 	display: flex;
 	font-size: 18px;
@@ -248,12 +244,4 @@ footer nav ul li a {
     color: var(--primary-color);
     margin: 10% -180% 0% 0%;
 }
-#about-me {
-    border: 2px solid blue;
-}
-#work {
-    border: 2px solid green;
-    }
-#contact {
-    border: 2px solid red;
-}
+
