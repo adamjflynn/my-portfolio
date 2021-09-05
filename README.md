@@ -12,3 +12,5 @@ The purpose of this project was to create a landing page displaying my professio
   
 
 Link to the deployed application [Portfolio](https://adamjflynn.github.io/my-portfolio/) site.
+
+![My Portfolio](/assets/myportfolio.jpg "MarineGEO logo")
