@@ -5,14 +5,14 @@
 		<meta charset="UTF-8" />
 		<title>Adam Flynn Portfolio</title>
 		<link rel="icon" href="assets/pictures/favicon-16x16.png" type="image/gif" sizes="20x20">
+		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	</head>
-	<body>
-		<header>
-			<div class="flex-header">
-				<h1>Adam Flynn</h1>
+	<body class="flex flex-col w-full">
+		<header class="">
+				<h1 class="text-5xl font-bold text-green-900">Adam Flynn</h1>
 			</div>
-            <div class="header-nav">
-			<nav>
+            <div class="text-green-900">
+			<nav class="pt-8">
 				<!-- unordered list element -->
 				<ul>
 					<!-- list item element -->
@@ -33,42 +33,26 @@
 			</nav>
             </div>
 		</header>
-		<section class="hero">
-			<div class="headshot"></div>
-			<div class="my-portfolio">
-				<div class="hero-st">
-					<h2>My Portfolio!</h2>
-				</div>
+		<section class="flex flex-row justify-space-around text-white bg-green-900">
+			<div class="p-2">
+			<img src="assets/pictures/headshot-af.jpeg">
 			</div>
+				<div class="flex flex-col justify-center p-2">	
+					<h2 class="text-3xl">About Me</h2>
+						<p class="flex pt-8">
+					
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aperiam
+						in iusto deleniti nesciunt delectus reiciendis deserunt aliquid?
+						Recusandae nihil atque dolorum amet, cupiditate omnis reprehenderit
+						sunt. Itaque, modi vero. Lorem ipsum dolor sit amet consectetur,
+						adipisicing elit. Impedit nisi eum quod nostrum quisquam minima
+						accusamus tempora atque voluptate incidunt obcaecati fugiat deleniti
+						repellat molestiae, in, a aliquam vero aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate odit inventore aut aliquam dignissimos dolorum delectus beatae recusandae, non iusto? Voluptatibus iusto in ipsam voluptatum fuga eum quidem iure sequi.</p>
+					</div>
+			
 		</section>
 
 		<!-- "About Me" Section -->
-		<section id="about-me">
-			<div class="about-me">
-				<h2 class="section-title">
-					About <br />
-					Me
-				</h2>
-
-				<p class="bio">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aperiam
-					in iusto deleniti nesciunt delectus reiciendis deserunt aliquid?
-					Recusandae nihil atque dolorum amet, cupiditate omnis reprehenderit
-					sunt. Itaque, modi vero. Lorem ipsum dolor sit amet consectetur,
-					adipisicing elit. Impedit nisi eum quod nostrum quisquam minima
-					accusamus tempora atque voluptate incidunt obcaecati fugiat deleniti
-					repellat molestiae, in, a aliquam vero aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate odit inventore aut aliquam dignissimos dolorum delectus beatae recusandae, non iusto? Voluptatibus iusto in ipsam voluptatum fuga eum quidem iure sequi.<br />
-					<br />
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-					accusantium distinctio ducimus veniam doloribus deserunt corporis,
-					harum odit provident culpa, illum dolore incidunt voluptates repellat
-					quam delectus reiciendis, recusandae asperiores? Lorem ipsum dolor sit
-					amet consectetur adipisicing elit. Incidunt maiores, debitis ea
-					blanditiis assumenda dolorum dicta quas quos! Quibusdam aliquam velit
-					deleniti atque aut inventore unde nihil architecto alias illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, distinctio deleniti necessitatibus nihil, dolore fuga minima sequi nobis vel illum quas voluptas vero similique nemo libero alias cum consequuntur modi.
-				</p>
-			</div>
-		</section>
 
 		<!-- Work Section -->
 
@@ -81,14 +65,15 @@
 						<h3>Wander</h3>
 						<a href="https://gunther123.github.io/Wander/#"><img src="assets/pictures/wander.JPG" alt="Wander" /></a>
 						
-						<span>MERN Stack</span>
+						<span>Front End Project</span>
                     </div>
 					</div>
 					<div class="project-container">
-						<div class="LED-wall">
+						<div class="Workday Scheduler">
                             <div class="project-tags">
 							<h3>LED Wall</h3>
-							<span>Node/IoT</span>
+							<a href="https://adamjflynn.github.io/workday-scheduler/"><img src="assets/WDS.JPG" alt="workday scheduler" /></a>
+							<span></span>
                         </div>
 						</div>
 						<div class="calculator">

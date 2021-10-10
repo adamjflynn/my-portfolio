@@ -1,8 +1,4 @@
-:root {
-	--primary-color: #314155;
-	--secondary-color: aquamarine;
-	--tertiary-color: #fff;
-}
+
 body {
 	margin: 0;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -85,17 +81,8 @@ footer nav ul li a {
 
 /* Hero Style */
 
-.hero {
-	background-image: url(../assets/forest-background-pine-trees-silhouette-template-vector-23228125.jpg);
-	z-index: 0;
-	background-color: #0a1b25;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 100%;
-	padding: 0.5%;
-}
+
 .headshot {
-	background-image: url(./pictures/headshot-af.jpeg);
 	background-size: cover;
 	width: 300px;
 	height: 200px;
@@ -131,12 +118,6 @@ footer nav ul li a {
 	font-size: 32px;
 	text-align: right;
 	margin: 2% 10% 0% 10%;
-}
-.bio {
-	width: 90%;
-	display: flex;
-	font-size: 18px;
-	color: var(--primary-color);
 }
 /* Work Style */
 
@@ -255,9 +236,6 @@ footer nav ul li a {
 }
 /* Section IDs */
 
-#about-me {
-	width: 100%;
-}
 #work {
 	width: 100%;
 }
