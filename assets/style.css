@@ -95,7 +95,7 @@ footer nav ul li a {
 	padding: 0.5%;
 }
 .headshot {
-	background-image: url(../assets/headshot-af.jpeg);
+	background-image: url(./pictures/headshot-af.jpeg);
 	background-size: cover;
 	width: 300px;
 	height: 200px;
@@ -165,8 +165,7 @@ footer nav ul li a {
 	background-color: var(--secondary-color);
 	padding: 0 1% 1% 1%;
 }
-.surf-report {
-	background-image: url("../assets/surf-report.jpg");
+.wander {
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
@@ -175,7 +174,7 @@ footer nav ul li a {
 	border: 5px solid var(--secondary-color);
 	height: 50%;
 }
-.surf-report:hover {
+.wander:hover {
 	opacity: 0.5;
 }
 .project-container {
@@ -185,7 +184,7 @@ footer nav ul li a {
 	width: 104.8%;
 }
 .LED-wall {
-	background-image: url("../assets/led-wall.jpg");
+	background-image: url("./pictures/led-wall.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -199,7 +198,7 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .calculator {
-	background-image: url("../assets/calculator.jpg");
+	background-image: url("./pictures/calculator.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -213,7 +212,7 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .pastel-puzzles {
-	background-image: url("../assets/pastel-puzzles.jpg");
+	background-image: url("./pictures/pastel-puzzles.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -227,7 +226,6 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .run-buddy {
-	background-image: url("../assets/run-buddy-snip.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
