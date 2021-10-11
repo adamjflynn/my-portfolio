@@ -1,8 +1,4 @@
-:root {
-	--primary-color: #314155;
-	--secondary-color: aquamarine;
-	--tertiary-color: #fff;
-}
+
 body {
 	margin: 0;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -59,17 +55,8 @@ p {
 span {
 	font-size: 16px;
 }
-footer {
-	margin: 0% 5% 0% 5%;
-	padding: 0% 85% 0% 4%;
-}
-footer nav ul {
-	list-style: none;
-}
-footer nav ul li a {
-	color: var(--primary-color);
-	font-weight: bold;
-}
+
+/* Header Style */
 .flex-header {
 	display: flex;
 	justify-content: right;
@@ -79,17 +66,11 @@ footer nav ul li a {
 .header-nav {
 	color: aquamarine;
 }
-.hero {
-	background-image: url(../assets/forest-background-pine-trees-silhouette-template-vector-23228125.jpg);
-	z-index: 0;
-	background-color: #0a1b25;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: 100%;
-	padding: 0.5%;
-}
+
+/* Hero Style */
+
+
 .headshot {
-	background-image: url(../assets/headshot-af.jpeg);
 	background-size: cover;
 	width: 300px;
 	height: 200px;
@@ -116,20 +97,9 @@ footer nav ul li a {
 	font-size: 32px;
 	text-align: right;
 }
-.about-me {
-	display: flex;
-	justify-content: flex-end;
-	color: var(--primary-color);
-	font-size: 32px;
-	text-align: right;
-	margin: 2% 10% 0% 10%;
-}
-.bio {
-	width: 90%;
-	display: flex;
-	font-size: 18px;
-	color: var(--primary-color);
-}
+/* About Me Style */
+/* Work Style */
+
 .work {
 	width: 80%;
 	display: flex;
@@ -155,8 +125,7 @@ footer nav ul li a {
 	background-color: var(--secondary-color);
 	padding: 0 1% 1% 1%;
 }
-.surf-report {
-	background-image: url("../assets/surf-report.jpg");
+.wander {
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
@@ -165,7 +134,7 @@ footer nav ul li a {
 	border: 5px solid var(--secondary-color);
 	height: 50%;
 }
-.surf-report:hover {
+.wander:hover {
 	opacity: 0.5;
 }
 .project-container {
@@ -175,7 +144,7 @@ footer nav ul li a {
 	width: 104.8%;
 }
 .LED-wall {
-	background-image: url("../assets/led-wall.jpg");
+	background-image: url("./pictures/led-wall.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -189,7 +158,7 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .calculator {
-	background-image: url("../assets/calculator.jpg");
+	background-image: url("./pictures/calculator.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -203,7 +172,7 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .pastel-puzzles {
-	background-image: url("../assets/pastel-puzzles.jpg");
+	background-image: url("./pictures/pastel-puzzles.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -217,7 +186,6 @@ footer nav ul li a {
 	opacity: 0.5;
 }
 .run-buddy {
-	background-image: url("../assets/run-buddy-snip.jpg");
 	background-size: cover;
 	border: 5px solid var(--secondary-color);
 	display: flex;
@@ -230,123 +198,4 @@ footer nav ul li a {
 .run-buddy:hover {
 	opacity: 0.5;
 }
-.contact-me {
-	display: flex;
-	width: 35%;
-	margin: 0%;
-	padding: 10% 0% 0% 9%;
-	justify-content: space-between;
-}
-.contact-info {
-	display: flex;
-	justify-content: space-between;
-	color: var(--primary-color);
-	margin: 10% -180% 0% 0%;
-}
-#about-me {
-	width: 100%;
-}
-#work {
-	width: 100%;
-}
-#contact-me {
-	width: 100%;
-}
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
-	/* this will be applied on any acreen smaller than 980px */
-	header {
-		padding-bottom: 0;
-		justify-content: center;
-		position: relative;
-	}
-	header h1 {
-		width: 100%;
-		text-align: center;
-	}
-	header nav ul {
-		margin-top: 20px;
-		width: 100%;
-		justify-content: center;
-	}
-	header nav ul li a {
-		font-size: 20px;
-	}
-	footer h2,
-	footer div {
-		text-align: center;
-		width: 100%;
-	}
-	.hero-cta,
-	.hero-form {
-		width: 100%;
-	}
-	.hero-cta {
-		text-align: center;
-	}
-	.section-title {
-		width: 80%;
-	}
-	.trainer {
-		flex: 0 70%;
-	}
-	.contact-info iframe {
-		flex: 1 100%;
-	}
-}
-
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
-
-@media screen and (max-width: 768px) {
-	/* this will be applied on any screen between 768px and 575px */
-
-	section {
-		padding: 30px 15px;
-	}
-	.step h3 {
-		flex: 1 100%;
-		text-align: center;
-	}
-	.step-info {
-		flex: 2 100%;
-		text-align: center;
-		justify-content: center;
-	}
-	.step-img {
-		flex: 0 32%;
-		margin-right: 0;
-		margin-top: 15px;
-		margin-bottom: 15px;
-	}
-	.step-text {
-		flex: 100%;
-	}
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-
-@media screen and (max-width: 575px) {
-	/* this will be applied on any screen smaller than 575px */
-
-	.hero-form button {
-		width: 100%;
-	}
-	.section-title {
-		width: 100%;
-	}
-	.intro p {
-		width: 100%;
-	}
-	.trainer {
-		flex: 0 100%;
-	}
-	.contact-info {
-		text-align: center;
-	}
-	.contact-info > * {
-		flex: 0 100%;
-	}
-	.contact-form {
-		order: 3;
-	}
-}
+/* Contact Style */
