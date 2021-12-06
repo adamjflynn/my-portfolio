@@ -7,38 +7,32 @@
 		<link rel="icon" href="assets/pictures/favicon.ico" type="image/gif" sizes="20x20">
 		<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	</head>
-	<body class="flex relative min-h-screen bg-gray-200 flex-col sm:w-full md:w-full">
-		<header>
-				<h1 class="text-5xl font-bold text-green-900 px-12">Adam Flynn</h1>
-			</div>
-            <div class="text-green-900">
-			<nav class="pt-8">
-				<!-- unordered list element -->
-				<ul>
+	<body class="flex relative min-h-screen bg-gray-200 flex-col">
+		<header class="flex justify-between">
+			<h1 class="text-5xl font-bold text-green-900 px-12 pt-4 pb-4">Adam Flynn</h1>
+					<!-- unordered list element -->
+				<ul class="flex justify-evenly text-green-900 p-8">
 					<!-- list item element -->
-					<li>
-						<!-- anchor element -->
+					<li class="px-4 drop-shadow-md hover:bg-gray-500 hover:text-gray-200 rounded-full">
 						<a href="#about-me">About Me</a>
 					</li>
-					<li>
+					<li class="px-4 drop-shadow-md hover:bg-gray-500 hover:text-gray-200 rounded-full">
 						<a href="#work">Work</a>
 					</li>
-					<li>
+					<li class="px-4 drop-shadow-md hover:bg-gray-500 hover:text-gray-200 rounded-full">
 						<a href="#contact-me">Contact Me</a>
 					</li>
-					<li>
+					<li class="px-4 drop-shadow-md hover:bg-gray-500 hover:text-gray-200 rounded-full">
 						<a href="#resume">Resume</a>
 					</li>
 				</ul>
-			</nav>
-            </div>
 		</header>
-		<section class="flex flex-row justify-space-around text-gray-200 bg-green-900">
+		<section class="flex flex-row justify-space-around text-gray-200 bg-green-900 shadow-2xl">
 			<div class="p-4 rounded">
 			<img src="assets/pictures/headshot-af.jpeg" class="rounded-none lg:rounded-lg shadow-2xl">
 			</div>
 				<div class="flex flex-col justify-center p-2">	
-					<h2 class="text-3xl pl-5">About Me</h2>
+					<h2 id="about-me" class="text-3xl pl-5">About Me</h2>
 						<p class="flex pt-8">					
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aperiam
 						in iusto deleniti nesciunt delectus reiciendis deserunt aliquid?
@@ -56,12 +50,16 @@
 		<!-- Work Section -->
 
 		<section>
-				<h2 class="pl-12 pt-12 text-4xl font-bold text-green-900">Work</h2>
+				<h2 id="work" class="pl-12 pt-12 text-4xl font-bold text-green-900">Work</h2>
 			</section>
 				<div class="p-8 grid grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
 				<div class="p-4 bg-gray-500 rounded-none lg:rounded-lg m-2">
 						<h3 class="text-gray-200 font-bold pb-4">Wander - Interactive Front-End Development Project</h3>
-						<a href="https://gunther123.github.io/Wander/"><img src="assets/pictures/wander.JPG" class="rounded-none h-auto lg:rounded-lg shadow-2xl" alt="Wander" /></a>
+						<a href="https://gunther123.github.io/Wander/"><img src="assets/pictures/wander.JPG" class="rounded-none h-auto lg:rounded-lg shadow-2xl opacity-25 hover:bg-gray-200" alt="Wander" /></a>
+				</div>
+				<div class="p-4 bg-gray-500 rounded-none lg:rounded-lg m-2">
+					<h3 class="text-gray-200 font-bold pb-4">Baby Brain - Full Stack Project</h3>
+					<a href="http://boiling-refuge-70605.herokuapp.com/"><img src="assets/pictures/babybrain.JPG" class="rounded-none h-auto lg:rounded-lg shadow-2xl" alt="Baby Brain" /></a>
 				</div>
 				<div class="p-4 bg-gray-500 rounded-none lg:rounded-lg m-2">
 						<h3 class="text-gray-200 font-bold pb-4">Workday Scheduler - JavaScript and JQuery</h3>
@@ -77,15 +75,21 @@
 							<h3 class="text-gray-200 font-bold pb-2">Weather Dashboard - JavaScript and JQuery</h3>
 							<a href="https://adamjflynn.github.io/weather-dashboard/"><img src="assets/pictures/weather.JPG" class="rounded-none h-auto lg:rounded-lg shadow-2xl" alt="Weather Dashboard" /></a>
 						</div>
+						<div class="p-4 bg-gray-500 rounded-none lg:rounded-lg m-2">
+							<h3 class="text-gray-200 font-bold pb-2">Note Taker - Heroku</h3>
+							<a href="https://notetakr-af.herokuapp.com/"><img src="assets/pictures/notetakr.index.JPG" class="rounded-none h-auto lg:rounded-lg shadow-2xl" alt="Note Taker" /></a>
+						</div>
 					</div>		
+			
+
         <footer class="bg-green-900 pt-4 pb-4 flex">
 		
-			<div class="bg-green-900 pl-12 pr-24 text-4xl font-bold text-gray-200">
+			<div id="contact-me" class="bg-green-900 pl-12 pr-24 text-4xl font-bold text-gray-200">
                     Contact 
                 </br>
                     Me</h2>	
 			</div>			
-					<ul class="pl-8 pt-4 flex space-x-24 text-white font-bold">
+					<ul class="pl-8 pt-4 flex space-x-24 text-gray-200 font-bold">
 						<li class="p-4"><a href="#">612.309.8348</a></li>
 						<li class="p-4"><a href="#">adamflynn1@gmail.com</a></li>
 						<li class="p-4"><a href="https://github.com/adamjflynn">GitHub</a></li>
