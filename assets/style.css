@@ -8,40 +8,10 @@ body {
 	color: var(--primary-color);
 }
 /* apply styles to <header> */
-header {
-	padding: 10px 5px 10px 0px;
-	background-color: var(--primary-color);
-	display: flex;
-	justify-content: space-between;
-}
-header nav {
-	margin: 7px 0;
-	color: var(--secondary-color);
-}
-header nav ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	list-style: none;
-}
-header nav ul li a {
-	padding: 10px 15px;
-	font-weight: lighter;
-	font-size: 1.55vw;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 /* End Header Style */
 
-h1 {
-	display: flex;
-	padding: 20px 10px 20px;
-	margin: 0;
-	margin-bottom: 0;
-	margin-left: 100px;
-	font-size: 32px;
-	color: var(--primary-color);
-}
+
 h3 {
 	font-size: 24px;
 }
